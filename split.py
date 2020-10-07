@@ -14,7 +14,7 @@ def split_train_val3():
     gkf = GroupKFold(n_splits=NUM_FOLD)
 
     results = []
-    for idx, (train_idx, val_idx) in enumerate(gkf.split(total_df, total_df["dam"],
+    for idx, (train_idx, val_idx) in enumerate(gkf.split(total_df, total_df["car"],
                                                          groups=total_df['image name'].tolist())):
         train_fold = total_df.iloc[train_idx]
         val_fold = total_df.iloc[val_idx]
