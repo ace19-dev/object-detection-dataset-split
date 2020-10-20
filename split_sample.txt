@@ -1,0 +1,186 @@
+total:
+ athletic field           87.0
+bridge                  136.0
+helipad                 155.0
+dam                     184.0
+roundabout              219.0
+crane                   315.0
+large ship              348.0
+civilian aircraft       550.0
+military aircraft      1031.0
+etc                    1042.0
+oil tank               1093.0
+bus                    5429.0
+train                  5648.0
+small ship            13533.0
+truck                 20931.0
+small car            154348.0
+dtype: float64 
++++++++++++++++++++++++++++++
+
+
+split:  0
+train_df:
+ athletic field           76.0
+bridge                  115.0
+helipad                 141.0
+dam                     153.0
+roundabout              185.0
+crane                   269.0
+large ship              279.0
+civilian aircraft       460.0
+etc                     927.0
+oil tank                934.0
+military aircraft      1003.0
+train                  4512.0
+bus                    4666.0
+small ship            11121.0
+truck                 17637.0
+small car            128363.0
+dtype: float64
+
+val_df:
+ athletic field          11.0
+helipad                 14.0
+bridge                  21.0
+military aircraft       28.0
+dam                     31.0
+roundabout              34.0
+crane                   46.0
+large ship              69.0
+civilian aircraft       90.0
+etc                    115.0
+oil tank               159.0
+bus                    763.0
+train                 1136.0
+small ship            2412.0
+truck                 3294.0
+small car            25985.0
+dtype: float64
++++++++++++++++++++++++++++++++
+
+
+split:  1
+train_df:
+ athletic field           78.0
+helipad                 104.0
+bridge                  118.0
+dam                     153.0
+roundabout              166.0
+crane                   263.0
+large ship              275.0
+civilian aircraft       405.0
+military aircraft       851.0
+etc                     917.0
+oil tank               1015.0
+bus                    4721.0
+train                  5312.0
+small ship            10067.0
+truck                 17154.0
+small car            128041.0
+dtype: float64
+
+val_df:
+ athletic field           9.0
+bridge                  18.0
+dam                     31.0
+helipad                 51.0
+crane                   52.0
+roundabout              53.0
+large ship              73.0
+oil tank                78.0
+etc                    125.0
+civilian aircraft      145.0
+military aircraft      180.0
+train                  336.0
+bus                    708.0
+small ship            3466.0
+truck                 3777.0
+small car            26307.0
+dtype: float64
++++++++++++++++++++++++++++++++
+
+
+split:  2
+train_df:
+ athletic field           74.0
+bridge                  115.0
+helipad                 129.0
+dam                     154.0
+roundabout              191.0
+crane                   239.0
+large ship              283.0
+civilian aircraft       491.0
+military aircraft       666.0
+etc                     908.0
+oil tank                990.0
+bus                    4458.0
+train                  4500.0
+small ship            11573.0
+truck                 17484.0
+small car            129687.0
+dtype: float64
+
+val_df:
+ athletic field          13.0
+bridge                  21.0
+helipad                 26.0
+roundabout              28.0
+dam                     30.0
+civilian aircraft       59.0
+large ship              65.0
+crane                   76.0
+oil tank               103.0
+etc                    134.0
+military aircraft      365.0
+bus                    971.0
+train                 1148.0
+small ship            1960.0
+truck                 3447.0
+small car            24661.0
+dtype: float64
++++++++++++++++++++++++++++++++
+
+
+split:  4
+train_df:
+ athletic field           72.0
+bridge                  102.0
+helipad                 137.0
+dam                     154.0
+roundabout              189.0
+crane                   262.0
+large ship              304.0
+civilian aircraft       438.0
+oil tank                700.0
+etc                     832.0
+military aircraft       905.0
+train                  4430.0
+bus                    4655.0
+small ship            12561.0
+truck                 16734.0
+small car            130528.0
+dtype: float64
+
+val_df:
+ athletic field          15.0
+helipad                 18.0
+dam                     30.0
+roundabout              30.0
+bridge                  34.0
+large ship              44.0
+crane                   53.0
+civilian aircraft      112.0
+military aircraft      126.0
+etc                    210.0
+oil tank               393.0
+bus                    774.0
+small ship             972.0
+train                 1218.0
+truck                 4197.0
+small car            23820.0
+dtype: float64
++++++++++++++++++++++++++++++++
+
+
+
