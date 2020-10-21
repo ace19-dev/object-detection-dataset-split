@@ -3,7 +3,6 @@ import json
 import glob
 import pandas as pd
 
-root_dir = '/path/to/your_Dataset'
 root_dir = '/path/to/your_dataset_dir'
 
 # train label path
